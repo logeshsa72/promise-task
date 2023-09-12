@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+  <script src="script1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <div class="container ">
+    
+  <div class="row">
+ 
+    <div class="col-lg-4 col-sm-12">
+                
+        <div class="card" style="width: 18rem;background: linear-gradient(50deg,#e66465, #9198e5);;">
+          
+            <h6 class="text-light bg-dark p-3 rounded">Afghanistan</h6>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Afghanistan_Flag.jpg/2560px-Afghanistan_Flag.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+            <p>Capital: Kabul</p>
+            <p>Region: Asia</p>
+            <p>Contry code: AFG</p>
+
+                <button onclick=" callWeather()" class="btn btn-primary">Click  for Weather</button>
+                <br>
+       
+                <div class="para">
+                  <p>Temp: <span id="temp"></span>°F</p>
+                  <p>Description: <span id="weather"></span></p>
+                  <p>Wind: <span id="wind"></span></p>
+
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-12">
+          <div class="card" style="width: 18rem;background: linear-gradient(45deg,#e66465, #9198e5)";>
+            <h6 class="text-light bg-dark p-3 rounded">Island</h6>
+            <img src="https://media.istockphoto.com/id/452145465/vector/flag-of-iceland.jpg?s=612x612&w=0&k=20&c=HE_kJUdguUZMB5ty22UUGGeRw2ok9AWgtz6Yf941xjE=" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p>Capital: Meriehamn</p>
+                <p>Region: Europe</p>
+                <p>Contry code: ALA</p>
+
+                <button onclick="callWeather1()" class="btn btn-primary">Click  for Weather</button>
+                <div class="para">
+                  <p>Temp: <span id="temp1"></span>°F</p>
+                  <p>Description: <span id="weather1"></span></p>
+                  <p>Wind: <span id="wind1"></span></p>
+
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-12">
+          <div class="card" style="width: 18rem;background: linear-gradient(50deg,#e66465, #9198e5)";>
+            <h6 class="text-light bg-dark p-3 rounded">Albania</h6>
+            <img src="https://media.istockphoto.com/id/867816582/vector/albania-flag-vector-flat-icon.jpg?s=612x612&w=0&k=20&c=aaYTUABO7SivIJKfoHg000D0OEuO4R2E4Cr927BFMC4=" class="card-img-top" alt="...">
+            <div class="card-body">
+            <p>Capital: Tirana</p>
+            <p>Region: Europe</p>
+            <p>Contry code: ALB</p>
+
+            <button onclick="callWeather2()" class="btn btn-primary">Click  for Weather</button>
+            <div class="para">
+              <p>Temp: <span id="temp2"></span>°F</p>
+              <p>Description: <span id="weather2"></span></p>
+              <p>Wind: <span id="wind2"></span></p>
+
+            </div>
+              </div>
+          </div>
+        </div>
+        </div>
+   
+</body>
+</html>
